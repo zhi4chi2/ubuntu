@@ -3,7 +3,8 @@
 * cp file dir - 复制文件 file 到目录 dir, dir 需要事先存在
 * cp file1 file2 dir - 复制多个文件 file1 file2 到目录 dir, dir 需要事先存在
 * cp -r dir1 dir2 - 复制目录 dir1 到目录 dir2, dir2 如果不存在则创建。但是如果 dir2 不存在，则复制的是 dir1 的内容，如果 dir2 存在，则将 dir1 复制成 dir2 的子目录！
-* cp -r file1 dir1 dir2 - 复制多个文件或目录到目录 dir2, dir2 如果不存在则创建
+* cp -r file1 dir1 dir2 - 复制多个文件或目录到目录 dir2, dir2 如果不存在则创建。但是如果 dir2 不存在，则复制的是 dir1 的内容，如果 dir2 存在，则将 dir1 复制成 dir2 的子目录！
+
 
 
 如果 cp 源中有目录，则必须使用 -r ！否则出错(omitting directory)
