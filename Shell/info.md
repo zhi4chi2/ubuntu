@@ -2,7 +2,8 @@ GNU 提供 info 页面取代 manual, info 页面可以用 info 阅读器显示�
 
 
 ```bash
-info coreutils
+me@mypc:~$ info coreutils
+me@mypc:~$ 
 ```
 
 
