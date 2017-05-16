@@ -25,9 +25,8 @@
 - [lprm](Shell/lprm.md)
 - [ls](Shell/ls.md)
 - [man](Shell/man.md)
-
-
-
+- [mesg](Shell/mesg.md)
+- [mkdir](Shell/mkdir.md)
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
