@@ -4,6 +4,7 @@ cd 快捷方式：
 * cd ~username - 切换到 username 的主目录
 
 
+---
 ```bash
 me@mypc:~$ cd Documents/
 me@mypc:~/Documents$ cd ~
