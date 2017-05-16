@@ -16,7 +16,7 @@
   - [权限](Linux Command Line/9.md)
   - [进程](Linux Command Line/10.md)
   - [环境](Linux Command Line/11.md)
-  - [VI](Linux Command Line/12.md)
+  - [VI](Linux Command Line/12.md) - P119
   - [定制提示符](Linux Command Line/13.md)
   - [软件包管理](Linux Command Line/14.md) - P145
   - [存储介质](Linux Command Line/15.md)
@@ -29,7 +29,7 @@
   - [打印](Linux Command Line/22.md)
   - [编译程序](Linux Command Line/23.md)
   - [编写 Shell 脚本](Linux Command Line/24.md) - P305
-  - [启动一个项目](Linux Command Line/25.md)
+  - [启动一个项目](Linux Command Line/25.md) - P311
   - [自顶向下设计](Linux Command Line/26.md)
   - [IF](Linux Command Line/27.md)
   - [读取键盘输入](Linux Command Line/28.md)
