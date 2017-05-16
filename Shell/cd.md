@@ -11,5 +11,6 @@ me@mypc:~/Documents$ cd ~
 me@mypc:~$ cd -
 /home/me/Documents
 me@mypc:~/Documents$ cd
-me@mypc:~$ 
+me@mypc:~$ cd ~eg
+me@mypc:/home/eg$ 
 ```
