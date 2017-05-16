@@ -9,3 +9,8 @@ me@mypc:~$
 
 
 which 仅用于可执行程序，不适用于内置命令和 alias 命令。
+
+```bash
+type cd
+which cd
+```
