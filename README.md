@@ -1,3 +1,5 @@
-# My Awesome Book
+# Set up
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+* Ubuntu 16.04 LTS
+* 设置为英文环境，所以显示的时间为英文格式
+* 新建管理员用户 me(Me) 和普通用户 eg(Example)
