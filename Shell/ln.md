@@ -6,7 +6,7 @@ ln file link
 ln -s item link
 ```
 
-
+例子
 ```bash
 me@mypc:~/test$ touch f
 me@mypc:~/test$ ln f hard-link
