@@ -9,8 +9,8 @@
 - [apropos](Shell/apropos.md)
 - [cal](Shell/cal.md)
 - [cd](Shell/cd.md)
-
 - [cp](Shell/cp.md)
+- [date](Shell/date.md)
 - [finger](Shell/finger.md)
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
