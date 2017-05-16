@@ -3,6 +3,14 @@
 ## 参考书籍
 
 - [Linux 命令行大全](Linux Command Line/README.md)
+  - [Shell 是什么](Linux Command Line/1.md)
+  - [导航](Linux Command Line/2.md)
+  - [Linux 系统](Linux Command Line/3.md)
+  - [操作文件和目录](Linux Command Line/4.md)
+  - [命令的使用](Linux Command Line/5.md)
+  - [重定向](Linux Command Line/6.md)
+
+
 - [Linux 初步](Linux Start/README.md)
   - [开始使用 Linux](Linux Start/3.md)
   - [文件和目录](Linux Start/4.md)
