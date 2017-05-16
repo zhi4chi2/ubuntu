@@ -10,7 +10,6 @@
   - [操作文件和目录](Linux Command Line/4.md)
   - [命令的使用](Linux Command Line/5.md)
   - [重定向](Linux Command Line/6.md)
-  - [透过 Shell 看世界](Linux Command Line/6.md)
   - [透过 Shell 看世界](Linux Command Line/7.md)
   - [高级键盘技巧](Linux Command Line/8.md)
   - [权限](Linux Command Line/9.md)
