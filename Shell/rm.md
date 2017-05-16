@@ -5,7 +5,11 @@
 * -v/--verbose
 
 
-删除目录，不提示
+删除目录，必须使用 -r
 ```bash
-rm -rf quartz-1.8.6
+me@mypc:~/test$ mkdir d
+me@mypc:~/test$ rm d
+rm: cannot remove 'd': Is a directory
+me@mypc:~/test$ rm -r d
+me@mypc:~/test$ 
 ```
