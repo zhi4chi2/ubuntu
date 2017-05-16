@@ -8,6 +8,8 @@
 - [alias](Shell/alias.md)
 - [apropos](Shell/apropos.md)
 - [cal](Shell/cal.md)
+- [cd](Shell/cd.md)
+
 - [cp](Shell/cp.md)
 - [finger](Shell/finger.md)
 - [rmdir](Shell/rmdir.md)
