@@ -117,16 +117,16 @@ me@mypc:~/test$
 
 ---
 选项：
-* -a/--archive - 复制时包括属性，包括所有权和权限（好像不是）。
-* -i/--interactive - 如果目标已经存在，需要用户确认，输入 y 覆盖，输入其它任何字符保留原文件。默认会直接覆盖。
+* [-a](#a)/--archive - 复制时包括属性，包括所有权和权限（好像不是）。
+* [-i](#i)/--interactive - 如果目标已经存在，需要用户确认，输入 y 覆盖，输入其它任何字符保留原文件。默认会直接覆盖。
 * -r/--recursive - 递归复制。复制目录时使用。
-* -u/--update
+* [-u](#u)/--update
 * -v/--verbose
 * -p - 保持文件原来的属性
 * -R - 将源目录的子目录及子目录下的文件都复制到目标目录
 
 
-# -a
+# -a {#a}
 ```bash
 me@mypc:~/test$ cp /etc/passwd pw
 me@mypc:~/test$ ls -l
@@ -145,7 +145,7 @@ me@mypc:~/test$
 加 -a 后复制结果的时间不更改。
 
 
-# -u
+# -u {#u}
 ```bash
 me@mypc:~/test$ cp /etc/passwd pw
 me@mypc:~/test$ ls -l
@@ -168,7 +168,7 @@ me@mypc:~/test$
 加 -u 在没有更新时不复制。
 
 
-# -i
+# -i {#i}
 ```bash
 me@mypc:~/test$ cp -i /etc/passwd pw
 cp: overwrite 'pw'? y
