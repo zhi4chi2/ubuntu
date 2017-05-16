@@ -117,6 +117,8 @@ me@mypc:~/test$ ls -F 2
 me@mypc:~/test$ 
 ```
 
+如果不加 -r 则成功复制了文件 f ，但没有复制目录，即提示的 omitting directory
+
 ---
 选项：
 * [-a](#a)/--archive - 复制时包括属性，包括所有权（好像没有复制所有者，见例子）和权限。
