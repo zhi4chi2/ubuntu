@@ -22,6 +22,9 @@
 - [ln](Shell/ln.md)
 - [lpq](Shell/lpq.md)
 - [lpr](Shell/lpr.md)
+- [lprm](Shell/lprm.md)
+
+
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
