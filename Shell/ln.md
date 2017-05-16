@@ -24,6 +24,17 @@ total 0
 412126 -rw-rw-r-- 2 me me 0 May 16 20:06 hard-link
 413064 lrwxrwxrwx 1 me me 1 May 16 20:06 slink -> f
 413087 lrwxrwxrwx 1 me me 3 May 16 20:09 slink2 -> ./f
+me@mypc:~/test$ rm slink2
+me@mypc:~/test$ ls -il
+total 0
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 f
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 hard-link
+413064 lrwxrwxrwx 1 me me 1 May 16 20:06 slink -> f
+me@mypc:~/test$ rm slink
+me@mypc:~/test$ ls -il
+total 0
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 f
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 hard-link
 me@mypc:~/test$ 
 ```
 
