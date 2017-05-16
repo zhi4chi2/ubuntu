@@ -15,6 +15,8 @@
 - [file](Shell/file.md)
 - [finger](Shell/finger.md)
 - [free](Shell/free.md)
+- [head](Shell/head.md)
+- [help](Shell/help.md)
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
