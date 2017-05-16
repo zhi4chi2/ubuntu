@@ -5,6 +5,9 @@
 - [Linux 初步](Linux Start/README.md)
 
 ## Shell
+- [alias](Shell/alias.md)
+
 - [cp](Shell/cp.md)
 - [finger](Shell/finger.md)
 - [rmdir](Shell/rmdir.md)
+- [su](Shell/su.md)
