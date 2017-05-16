@@ -18,7 +18,8 @@
 - [head](Shell/head.md)
 - [help](Shell/help.md)
 - [info](Shell/info.md)
-
+- [less](Shell/less.md)
+- [ln](Shell/ln.md)
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
