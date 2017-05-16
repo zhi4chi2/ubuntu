@@ -7,6 +7,23 @@ ln -s item link
 ```
 
 
+```bash
+me@mypc:~/test$ touch f
+me@mypc:~/test$ ln f hard-link
+me@mypc:~/test$ ls -il
+total 0
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 f
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 hard-link
+me@mypc:~/test$ ln -s f slink
+me@mypc:~/test$ ls -il
+total 0
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 f
+412126 -rw-rw-r-- 2 me me 0 May 16 20:06 hard-link
+413064 lrwxrwxrwx 1 me me 1 May 16 20:06 slink -> f
+me@mypc:~/test$ 
+```
+
+
 创建符号链接时，即是创建一个文本文件，用于描述目标文件在哪里。
 
 
