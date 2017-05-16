@@ -6,7 +6,7 @@
 
 ## Shell
 - [alias](Shell/alias.md)
-
+- [apropos](Shell/apropos.md)
 - [cp](Shell/cp.md)
 - [finger](Shell/finger.md)
 - [rmdir](Shell/rmdir.md)
