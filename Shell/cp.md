@@ -8,7 +8,7 @@
 
 如果 cp 源中有目录，则必须使用 -r ！否则出错(omitting directory)
 
-
+---
 复制文件 file1 到文件 file2, 如果 file2 存在则会覆盖，否则创建 file2
 ```bash
 me@mypc:~/test$ touch f1
@@ -29,7 +29,7 @@ total 0
 me@mypc:~/test$ 
 ```
 
-
+---
 复制文件到目录，目录必须已经存在（如果不存在，认为是复制文件到文件）
 ```bash
 me@mypc:~/test$ mkdir 1
@@ -47,7 +47,7 @@ drwxrwxr-x 2 me me 4096 May 15 20:44 1
 me@mypc:~/test$ 
 ```
 
-
+---
 使用通配符复制多个文件到目录，目录必须已经存在
 ```bash
 me@mypc:~/test$ mkdir 1
@@ -63,7 +63,7 @@ f1  f2
 me@mypc:~/test$ 
 ```
 
-
+---
 复制目录到目录，必须使用 -r 选项，否则出错(omitting directory)
 ```bash
 me@mypc:~/test$ mkdir 1 2
@@ -78,7 +78,7 @@ me@mypc:~/test$ ls -F 2
 me@mypc:~/test$ 
 ```
 
-
+---
 复制目录，递归(-r)复制子目录，此时目标目录不必事先存在
 ```bash
 me@mypc:~/test$ mkdir 1
@@ -95,7 +95,7 @@ f
 me@mypc:~/test$ 
 ```
 
-
+---
 复制多个文件或目录到目录 dir2, dir2 需要事先存在。必须使用 -r 选项，否则出错(omitting directory)
 ```bash
 me@mypc:~/test$ mkdir 1
@@ -115,7 +115,7 @@ me@mypc:~/test$ ls -F 2
 me@mypc:~/test$ 
 ```
 
-
+---
 选项：
 * -a/--archive - 复制时包括属性，包括所有权和权限（好像不是）。
 * -i/--interactive - 如果目标已经存在，需要用户确认，输入 y 覆盖，输入其它任何字符保留原文件。默认会直接覆盖。
