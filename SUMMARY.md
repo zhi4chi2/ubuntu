@@ -17,6 +17,8 @@
 - [free](Shell/free.md)
 - [head](Shell/head.md)
 - [help](Shell/help.md)
+- [info](Shell/info.md)
+
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
