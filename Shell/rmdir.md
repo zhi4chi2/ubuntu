@@ -1,4 +1,12 @@
 rmdir 被删除的目录必须是空目录
+```bash
+me@mypc:~/test$ mkdir 1
+me@mypc:~/test$ touch 1/f
+me@mypc:~/test$ rmdir 1
+rmdir: failed to remove '1': Directory not empty
+me@mypc:~/test$ 
+```
+
 
 
 # -p {#p}
