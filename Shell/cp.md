@@ -6,7 +6,6 @@
 * cp -r file1 dir1 dir2 - 复制多个文件或目录到目录 dir2, dir2 如果不存在则创建。但是如果 dir2 不存在，则复制的是 dir1 的内容，如果 dir2 存在，则将 dir1 复制成 dir2 的子目录！
 
 
-
 如果 cp 源中有目录，则必须使用 -r ！否则出错(omitting directory)
 
 ---
