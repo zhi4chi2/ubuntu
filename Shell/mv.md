@@ -25,10 +25,13 @@ me@mypc:~/test$
 ---
 移动文件 f1 到文件 f2, 如果 f2 存在，则覆盖
 ```bash
-touch f1 f2
-ls
-mv f1 f2
-ls
+me@mypc:~/test$ touch f1 f2
+me@mypc:~/test$ ls
+f1  f2
+me@mypc:~/test$ mv f1 f2
+me@mypc:~/test$ ls
+f2
+me@mypc:~/test$ 
 ```
 
 ---
