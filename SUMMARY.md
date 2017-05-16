@@ -23,6 +23,9 @@
 - [lpq](Shell/lpq.md)
 - [lpr](Shell/lpr.md)
 - [lprm](Shell/lprm.md)
+- [ls](Shell/ls.md)
+- [man](Shell/man.md)
+
 
 
 
