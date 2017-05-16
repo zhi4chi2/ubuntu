@@ -4,6 +4,9 @@
 
 - [Linux 命令行大全](Linux Command Line/README.md)
 - [Linux 初步](Linux Start/README.md)
+  - [开始使用 Linux](Linux Start/3.md)
+  - [文件和目录](Linux Start/4.md)
+
 
 ## Shell
 
