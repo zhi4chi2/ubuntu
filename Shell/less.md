@@ -1,5 +1,5 @@
 ```bash
-yhch@YHC:~/Downloads$ less /etc/passwd
+me@mypc:~/Downloads$ less /etc/passwd
 ```
 
 
