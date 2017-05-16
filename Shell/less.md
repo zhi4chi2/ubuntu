@@ -1,5 +1,6 @@
 ```bash
-me@mypc:~/Downloads$ less /etc/passwd
+me@mypc:~$ less /etc/passwd
+me@mypc:~$ 
 ```
 
 
