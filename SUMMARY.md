@@ -27,6 +27,7 @@
 - [man](Shell/man.md)
 - [mesg](Shell/mesg.md)
 - [mkdir](Shell/mkdir.md)
-
+- [mv](Shell/mv.md)
+- [netstat](Shell/netstat.md)
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
