@@ -98,7 +98,7 @@ me@mypc:~/test$
 `cp -r 1 2` 在目标目录 2 事先不存在时，实际是将源目录的内容复制到目标目录！
 
 ---
-复制多个文件或目录到目录 dir2, dir2 需要事先存在。必须使用 -r 选项，否则出错(omitting directory)
+复制多个文件和目录到目录 dir2, dir2 需要事先存在。必须使用 -r 选项，否则出错(omitting directory)
 ```bash
 me@mypc:~/test$ mkdir 1
 me@mypc:~/test$ touch f
