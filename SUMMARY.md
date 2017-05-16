@@ -29,5 +29,10 @@
 - [mkdir](Shell/mkdir.md)
 - [mv](Shell/mv.md)
 - [netstat](Shell/netstat.md)
+- [od](Shell/od.md)
+- [pwd](Shell/pwd.md)
+
+
+
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
