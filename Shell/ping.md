@@ -1,0 +1,1 @@
+发送 ICMP ECHO_REQUEST 数据包。
