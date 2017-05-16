@@ -1,8 +1,6 @@
 rmdir 被删除的目录必须是空目录
 
 
-
-
 rmdir -p 删除多级目录
 ```bash
 me@mypc:~/test$ mkdir -p 1/2
