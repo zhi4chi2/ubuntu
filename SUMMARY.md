@@ -12,6 +12,9 @@
 - [cp](Shell/cp.md)
 - [date](Shell/date.md)
 - [df](Shell/df.md)
+- [file](Shell/file.md)
 - [finger](Shell/finger.md)
+- [free](Shell/free.md)
+
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
