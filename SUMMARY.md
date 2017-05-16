@@ -20,6 +20,8 @@
 - [info](Shell/info.md)
 - [less](Shell/less.md)
 - [ln](Shell/ln.md)
+- [lpq](Shell/lpq.md)
+- [lpr](Shell/lpr.md)
 
 - [rmdir](Shell/rmdir.md)
 - [su](Shell/su.md)
