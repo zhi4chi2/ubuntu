@@ -14,7 +14,8 @@ SEE ALSO
        M-x info will lead to the manual.)
 ```
 
-Ubuntu 默认没有安装 texinfo-doc-nonfree ，需要自己安装
+如果要查看 info reader 的使用方法，需要自己安装 texinfo-doc-nonfree
+
 ```bash
 me@mypc:~$ sudo apt-get install texinfo-doc-nonfree
 sudo: unable to resolve host mypc
@@ -59,19 +60,24 @@ Processing triggers for install-info (6.1.0.dfsg.1-5) ...
 Setting up texinfo-doc-nonfree (6.1.0-2) ...
 me@mypc:~$ info info
 ```
-然后再次执行 `info info` 就可以看到完整的文档了。按 H 看到完整的按键列表。例如
+
+然后再次执行 `info info` 就可以看到 info reader 的使用文档了。
+
+按 H 看到完整的按键列表。例如
 - p - 上一个 node
 - n - 下一个 node
 - u - 上一级
 - SPACE - 下一页
 - DEL - 上一页
 
+按 h 得到的是安装 texinfo-doc-nonfree 之前的文档。
 
+
+---
+info 使用示例
 ```bash
 me@mypc:~$ info coreutils
 me@mypc:~$
 ```
-
-
 
 大部分命令行程序都是 GNU coreutils 包的一部分，因此上面的命令可以看到 coreutils 提供的每个程序的文档。
