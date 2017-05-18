@@ -49,9 +49,9 @@
 
 ### Tools
 
-工具，而不是简单得到结果
+工具，不是简单得到结果就结束。
 
-- [vi](/Tools/vi.md)
+- [vim](/Tools/vi.md)
 
 
 
