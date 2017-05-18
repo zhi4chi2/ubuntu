@@ -49,15 +49,11 @@
 
 ### Tools
 
-
-
 - [vim](/Tools/vi.md)
 
 
 
 ### Shell
-
-运行得到结果
 
 - [alias](Shell/alias.md)
 - [apropos](Shell/apropos.md)
