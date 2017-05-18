@@ -250,7 +250,7 @@ vi file1 file2 file3
 
 如果要查看的命令中有 Ctrl ，应该用 "CTRL-" ，例如 ":help CTRL-A" 表示查看 Ctrl+A 命令的帮助。
 
-:help 默认显示 normal mode 帮助，如果要显示其它模式，需要使用 mode prefix 例如 "i_" 表示 insert mode 。例如 ":help i_CTRL-H" 表示 insert mode 下的 Ctrl+H
+:help 默认显示 normal mode 帮助，如果要显示其它模式，需要使用 mode prefix 例如 "i\_" 表示 insert mode 。例如 ":help i_CTRL-H" 表示 insert mode 下的 Ctrl+H
 
 启动 vim 时指定的参数，例如 "vim -t" 的 -t 参数，的帮助查看方式 ":help -t"
 
