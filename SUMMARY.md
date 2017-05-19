@@ -12,7 +12,7 @@
   - [重定向](Linux Command Line/6.md)
   - [透过 Shell 看世界](Linux Command Line/7.md) - P59
   - [高级键盘技巧](Linux Command Line/8.md)
-  - [权限](Linux Command Line/9.md)
+  - [权限](Linux Command Line/9.md) - P77
   - [进程](Linux Command Line/10.md)
   - [环境](Linux Command Line/11.md)
   - [VI](Linux Command Line/12.md) - P119
