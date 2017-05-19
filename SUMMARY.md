@@ -89,6 +89,7 @@
 - [od](Shell/od.md)
 - [passwd](Shell/passwd.md)
 - [ping](/Shell/ping.md)
+- [ps](/Shell/ps.md)
 - [pwd](Shell/pwd.md)
 - [rm](Shell/rm.md)
 - [rmdir](Shell/rmdir.md)
