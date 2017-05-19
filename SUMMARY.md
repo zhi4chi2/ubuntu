@@ -74,6 +74,7 @@
 - [head](Shell/head.md)
 - [help](Shell/help.md)
 - [info](Shell/info.md)
+- [jobs](/Shell/jobs.md)
 - [less](Shell/less.md)
 - [lftp](/Shell/lftp.md)
 - [ln](Shell/ln.md)
