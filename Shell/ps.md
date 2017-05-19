@@ -71,3 +71,9 @@ TTY 显示 ? 表示没有终端。
 
 
 ## COMMAND
+
+
+# Reference
+
+- [Linux 命令行大全](/Linux Command Line/10.md)
+- http://man.linuxde.net/ps
