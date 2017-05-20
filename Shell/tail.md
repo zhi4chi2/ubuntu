@@ -4,6 +4,15 @@
 
 
 ```bash
+me@mypc:~/test$ ls -l ~ > f
+me@mypc:~/test$ tail -n 5 f
+drwxr-xr-x 2 me me 4096 May 15 20:01 Pictures
+drwxr-xr-x 2 me me 4096 May 15 20:01 Public
+drwxr-xr-x 2 me me 4096 May 15 20:01 Templates
+drwxrwxr-x 2 me me 4096 May 20 20:04 test
+drwxr-xr-x 2 me me 4096 May 15 20:01 Videos
+me@mypc:~/test$ 
+
 tail -5 file
 tail +5 file
 tail -f file
