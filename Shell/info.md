@@ -81,3 +81,10 @@ me@mypc:~$
 ```
 
 大部分命令行程序都是 GNU coreutils 包的一部分，因此上面的命令可以看到 coreutils 提供的每个程序的文档。
+
+
+# 术语
+- index entry
+- menu entry
+- menu item
+- node
