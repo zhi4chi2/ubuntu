@@ -10,9 +10,6 @@ Desktop    Downloads         GitBook  Pictures  Templates  Videos
 Documents  examples.desktop  Music    Public    test
 me@mypc:~$ ls | grep Te
 Templates
-me@mypc:~$ ls | grep te
-Templates
-test
 me@mypc:~$ ls | grep -i te
 Templates
 test
