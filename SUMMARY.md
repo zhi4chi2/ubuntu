@@ -88,6 +88,7 @@
 * [od](/Shell/od.md)
 * [passwd](/Shell/passwd.md)
 * [ping](/Shell/ping.md)
+* [printenv](/Shell/printenv.md)
 * [ps](/Shell/ps.md)
 * [pwd](/Shell/pwd.md)
 * [rm](/Shell/rm.md)
