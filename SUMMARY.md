@@ -73,6 +73,7 @@
 * [head](/Shell/head.md)
 * [help](/Shell/help.md)
 * [history](/Shell/history.md)
+* [id](/Shell/id.md)
 * [info](/Shell/info.md)
 * [jobs](/Shell/jobs.md)
 * [less](/Shell/less.md)
