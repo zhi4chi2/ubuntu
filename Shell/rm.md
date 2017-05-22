@@ -13,3 +13,7 @@ rm: cannot remove 'd': Is a directory
 me@mypc:~/test$ rm -r d
 me@mypc:~/test$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/4.md) - P28
