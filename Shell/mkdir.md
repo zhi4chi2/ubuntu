@@ -25,3 +25,7 @@ me@mypc:~/test$ ls -R
 ./1/2:
 me@mypc:~/test$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/4.md) - P26
