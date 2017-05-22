@@ -94,3 +94,7 @@ me@mypc:~/test$ ls -F 3
 me@mypc:~/test$
 ```
 
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/4.md) - P27
