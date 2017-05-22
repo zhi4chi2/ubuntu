@@ -25,3 +25,7 @@ Public
 Videos
 me@mypc:~$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/6.md) - P54
