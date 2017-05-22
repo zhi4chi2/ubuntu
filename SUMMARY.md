@@ -104,6 +104,7 @@
 * [startx](/Shell/startx.md)
 * [string](/Shell/string.md)
 * [su](/Shell/su.md)
+* [sudo](/Shell/sudo.md)
 * [tail](/Shell/tail.md)
 * [talk](/Shell/talk.md)
 * [tar](/Shell/tar.md)
