@@ -88,3 +88,8 @@ me@mypc:~$
 - menu entry
 - menu item
 - node
+
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/5.md) - P42
