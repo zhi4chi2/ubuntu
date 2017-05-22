@@ -18,3 +18,8 @@ cd is a shell builtin
 me@mypc:~/test$ which cd
 me@mypc:~/test$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/5.md) - P39
+
