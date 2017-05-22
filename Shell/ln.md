@@ -49,3 +49,8 @@ me@mypc:~/test$
 
 
 与[书中](/Linux Command Line/4.md)所述不同， `ls -l` 看到的链接数目不计算符号链接！
+
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/4.md) - P29
