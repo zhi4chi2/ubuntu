@@ -85,7 +85,7 @@ me@mypc:~$
 - node - 每个 node 是文档中一个节点，用 Prev/Next/Up 将 node 串起来
 - top node - 每个 info 文档都有一个 Top Node
 - index entry - 例如 `info coreutils 'Concept index'` 可以看到 index 列表
-- cross references/Xrefs - 即 info 文档中引用 node 的字符串。例如 "* Foo Commands::", "* Foo Label: Foo target." 包括 menu references 和 note references
+- cross references/Xrefs - 即 info 文档中引用 node 的字符串。例如 "\* Foo Commands::", "\* Foo Label: Foo target." 包括 menu references 和 note references
 - menu entry/menu item - 即作为行开头的 cross references
 
 
@@ -110,7 +110,7 @@ node 间
 - l - last history node, 上一个浏览的 node
 - d - dir node
 - < - file 中 first node
-- > - file 中 last node
+- \> - file 中 last node
 - ] - 依次尝试 Next, first menu item, Up
 - [ - 依次尝试 Prev, Up, last menu item
 
