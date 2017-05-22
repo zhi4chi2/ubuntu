@@ -15,4 +15,4 @@ me@mypc:~/test$
 
 # Reference
 
-- [Linux Command Line](/Linux Command Line/6.md) - P51
+- [Linux Command Line](/Linux Command Line/6.md) - P54
