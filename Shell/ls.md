@@ -93,3 +93,8 @@ me@mypc:~$
 * 4096 - 文件大小（字节）
 * 5月  14 17:16 - 最后修改时间
 * Desktop - 文件名
+
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/3.md) - P13
