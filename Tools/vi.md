@@ -44,7 +44,7 @@ me@mypc:~$
 
 进入增强模式
 - 运行 vim 而不是 vi
-- 执行 `echo "set nocp" >> ~/.vimrc
+- 执行 `echo "set nocp" >> ~/.vimrc`
 
 
 # 保存工作
