@@ -93,3 +93,7 @@ A star (*) next to a name means that the command is disabled.
 me@mypc:~$ 
 ```
 
+# Reference
+
+- [Linux Command Line](/Linux Command Line/5.md) - P39
+
