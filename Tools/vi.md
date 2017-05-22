@@ -20,6 +20,10 @@ me@mypc:~$
 ```
 所以在 Ubuntu 中是 vi 通过符号链接链接到 vim.tiny 的。
 
+Ubuntu 只安装 vim 的最小版本，需要安装完全版 vim
+
+`apt-get install vim-gnome` 之后， vi 改为指向 /usr/bin/vim.gnome ， vim/gvim 也指向 /usr/bin/vim.gnome 。但是运行 gvim 显示 GUI
+
 
 # 启动和退出 vi
 
@@ -39,24 +43,26 @@ me@mypc:~$
 - 替换模式 - 按 R 进入
 - 可视模式(Visual mode) - 按 v 进入可视模式，可以四处移动光标使选取区域变大或变小。接着您可以使用一个操作符对选中文本进行操作。例如，按 d 键会删除选中的文本内容。
 
-- 增强模式
+
+在 Normal mode 下按 : 也叫输入 ex 命令
+
+
+- 增强模式 - 默认
 - 兼容模式 - vim 用近似 vi 的常规模式运行，使用 ":set nocp" 退出兼容模式
 
-进入增强模式
-- 运行 vim 而不是 vi
-- 执行 `echo "set nocp" >> ~/.vimrc`
+进入增强模式（如果默认是兼容模式）
+1. 运行 vim 而不是 vi
+1. 执行 `echo "set nocp" >> ~/.vimrc`
 
 
 # 保存工作
 
-在命令模式下按 : 也叫输入 ex 命令
-
 - :w - 保存
 
 保存后会在 vi 底部出现
-
-有些 Linux 发行版只安装 vim 的最小版本，需要安装完全版 vim
-
+```
+"ls-output" 1780L, 18873C written
+```
 
 # 移动光标
 
@@ -72,7 +78,7 @@ me@mypc:~$
 * W - 下一个单词
 * b - 上一个单词或标点
 * B - 上一个单词
-* Ctrl+F - 下一页
+* Ctrl+F - 下一页，在 Windows 下不可用
 * Ctrl+B - 上一页
 * n+G - 第 n 行，例如 1G 到第一行
 * G - 最后一行
@@ -82,7 +88,8 @@ me@mypc:~$
 
 其它命令（比如 j ）也可以前面加数字，就像 g 一样。
 
-% 可以查找配对的括号 ), ], }, (, [, {
+配对
+- % - 可以查找配对的括号 ), ], }, (, [, {
 
 
 # 基本编辑
@@ -134,6 +141,8 @@ d 命令其实是剪切。
 
 - p - 粘贴到光标之后。如果最后一次删除的是一个整行，那么该行将置于当前光标所在行的下一行。
 - P - 粘贴到光标之前
+
+复制
 - y - 复制
 - yy - 复制当前行， 5yy 表示复制 5 行
 - yw - 当前词
@@ -190,7 +199,7 @@ Ctrl+o 回到之前的位置，重复按可以回退更多步。 Ctrl+i 会跳�
 - a - 执行所有替换
 - q - 停止替换
 - l - last, 执行替换并结束替换
-- Ctrl+E, Ctrl+Y - 向下向上滚动查看替换处的上下文
+- Ctrl+E, Ctrl+Y - 向下向上滚动文档，查看替换处的上下文
 
 
 # 编辑多个文件
@@ -203,18 +212,18 @@ vi file1 file2 file3
 
 - :n - 切换到下一个可编辑文件
 - :N - 切换到上一个可编辑文件
-- :buffers - 查看正在编辑的文件列表
+- :buffers - 查看正在编辑的文件列表，显示 %a 的应该是当前文件
 - :buffer + n - 切换到另一个文件，例如 `:buffer 2`
 
 
-:n/:N 切换到可编辑文件。另有 Ctrl+w Ctrl+w 即按两次 Ctrl+w 切换文件。
+:n/:N 切换到可编辑文件。另有 Ctrl+w Ctrl+w 即按两次 Ctrl+w 切换窗口。
 
 
 ## 载入更多文件
 
 - :e + 文件名 - 载入新文件
 
-使用 :ez 载入的文件不响应 :n/:N 只能用 :buffer 切换。
+使用 :ez 载入的文件不响应 :n/:N 只能用 :buffer 切换。测试使用 :e 载入的文件也不响应 :n/:N
 
 
 ## 文件之间的内容复制
@@ -244,7 +253,7 @@ vi file1 file2 file3
 
 用 :help 得到帮助。还可以加参数，例如 ":help w", ":help c_Ctrl+D", ":help insert-index", ":help user-manual"
 
-在帮助文档中用 Ctrl+] 跳转 tag(超链接)，用 Ctrl+o(跳到 old position)/Ctrl+T(pop tag) 跳回。
+在帮助文档中用 Ctrl+] 跳转 tag(超链接)，用 Ctrl+o(跳到 old position)/Ctrl+t(pop tag) 跳回。
 
 查看所有命令的索引使用 :help index
 
@@ -285,6 +294,6 @@ Windows 下 vim 中定义了变量
 
 # Reference
 
-- [Linux 命令行大全](/Linux Command Line/12.md)
+- [Linux 命令行大全](/Linux Command Line/12.md) - P119
 - vimtutor - D:\Vim\vim80\vimtutor.bat
 - :help user-manual
