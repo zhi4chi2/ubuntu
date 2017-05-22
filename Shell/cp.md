@@ -182,5 +182,5 @@ me@mypc:~/test$
 
 
 # Reference
-* [Linux 命令行大全/操作文件和目录](/Linux Command Line/4.md) P26
-* [Linux 初步/文件和目录](/Linux Start/4.md)
+- [Linux 命令行大全/操作文件和目录](/Linux Command Line/4.md) P26
+- [Linux 初步/文件和目录](/Linux Start/4.md)
