@@ -10,3 +10,7 @@ me@mypc:~$ type cp
 cp is /bin/cp
 me@mypc:~$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/5.md) - P38
