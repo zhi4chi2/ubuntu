@@ -72,6 +72,7 @@
 * [grep](/Shell/grep.md)
 * [head](/Shell/head.md)
 * [help](/Shell/help.md)
+* [history](/Shell/history.md)
 * [info](/Shell/info.md)
 * [jobs](/Shell/jobs.md)
 * [less](/Shell/less.md)
