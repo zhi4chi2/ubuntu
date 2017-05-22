@@ -36,3 +36,8 @@ alias ll='ls -alF'
 alias ls='ls --color=auto'
 me@mypc:~/test$ 
 ```
+
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/5.md) - P44
