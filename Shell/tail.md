@@ -35,3 +35,7 @@ drwxrwxr-x 2 me me 4096 May 20 20:04 test
 drwxr-xr-x 2 me me 4096 May 15 20:01 Videos
 me@mypc:~/test$ 
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/6.md) - P55
