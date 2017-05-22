@@ -5,3 +5,7 @@
 me@mypc:~$ file /etc/passwd
 /etc/passwd: ASCII text
 ```
+
+# Reference
+
+- [Linux Command Line](/Linux Command Line/3.md) - P16
