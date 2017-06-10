@@ -63,6 +63,7 @@
 * [cp](/Shell/cp.md)
 * [date](/Shell/date.md)
 * [df](/Shell/df.md)
+* [du](/Shell/du.md)
 * [echo](/Shell/echo.md)
 * [file](/Shell/file.md)
 * [find](/Shell/find.md)
