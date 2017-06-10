@@ -47,9 +47,6 @@
   * [开始使用 Linux](/Linux Start/3.md)
   * [文件和目录](/Linux Start/4.md)
 
-## Tools
-
-* [vim](/Tools/vi.md)
 
 ## Shell
 
