@@ -71,6 +71,7 @@
 * [head](/shell/head.md)
 * [help](/shell/help.md)
 * [history](/shell/history.md)
+* [hostname](/shell/hostname.md)
 * [id](/shell/id.md)
 * [info](/shell/info.md)
 * [jobs](/shell/jobs.md)
